@@ -1,0 +1,384 @@
+2026-04-26 15:33:38 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-26 15:33:38 - Started 6404
+2026-04-26 22:47:29 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-26 22:47:29 - Started 752
+2026-04-27 00:40:02 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 00:40:03 - Started 3588
+2026-04-27 00:42:46 - Stopping syslogmonitor.exe
+2026-04-27 00:42:46 - ProcessKill 3588
+2026-04-27 00:42:46 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-27 15:37:40 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 15:37:40 - Started 2844
+2026-04-27 15:45:20 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 15:45:20 - Started 3468
+2026-04-27 15:48:33 - Stopping syslogmonitor.exe
+2026-04-27 15:48:33 - ProcessKill 3468
+2026-04-27 15:48:33 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-27 15:49:31 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 15:49:31 - Started 3332
+2026-04-27 15:58:49 - Stopping syslogmonitor.exe
+2026-04-27 15:58:49 - ProcessKill 3332
+2026-04-27 15:58:49 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-27 15:59:48 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 15:59:48 - Started 3492
+2026-04-27 16:04:21 - Stopping syslogmonitor.exe
+2026-04-27 16:04:21 - ProcessKill 3492
+2026-04-27 16:04:21 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-27 16:05:26 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 16:05:26 - Started 3560
+2026-04-27 16:09:18 - Stopping syslogmonitor.exe
+2026-04-27 16:09:18 - ProcessKill 3560
+2026-04-27 16:09:18 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-27 16:10:05 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 16:10:05 - Started 3596
+2026-04-29 15:54:23 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-29 15:54:24 - Started 3184
+2026-05-01 13:11:11 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-01 13:11:12 - Started 3884
+2026-05-01 13:20:54 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-01 13:20:54 - Started 3012
+2026-05-01 15:31:14 - Stopping syslogmonitor.exe
+2026-05-01 15:31:15 - ProcessKill 3012
+2026-05-01 15:31:15 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-01 15:32:20 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-01 15:32:20 - Started 3560
+2026-05-01 17:43:28 - Stopping syslogmonitor.exe
+2026-05-01 17:43:28 - ProcessKill 3560
+2026-05-01 17:43:29 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-01 18:29:04 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-01 18:29:04 - Started 3612
+2026-05-02 00:08:18 - Stopping syslogmonitor.exe
+2026-05-02 00:08:18 - ProcessKill 3612
+2026-05-02 00:08:18 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-02 03:06:13 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 03:06:14 - Started 4044
+2026-05-02 05:06:44 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 05:06:45 - Started 3292
+2026-05-02 06:35:38 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 06:35:38 - Started 2120
+2026-05-02 07:09:32 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 07:09:32 - Started 3756
+2026-05-02 07:13:37 - Stopping syslogmonitor.exe
+2026-05-02 07:13:37 - ProcessKill 3756
+2026-05-02 07:13:37 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-02 07:14:12 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 07:14:12 - Started 3796
+2026-05-02 07:30:10 - Stopping syslogmonitor.exe
+2026-05-02 07:30:10 - ProcessKill 3796
+2026-05-02 07:30:10 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-02 12:25:13 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 12:25:14 - Started 3184
+2026-05-02 12:41:04 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 12:41:04 - Started 3632
+2026-05-02 17:11:50 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 17:11:50 - Started 3592
+2026-05-02 17:22:48 - Stopping syslogmonitor.exe
+2026-05-02 17:22:48 - ProcessKill 3592
+2026-05-02 17:22:48 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-02 18:52:54 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-02 18:52:55 - Started 3720
+2026-05-02 22:04:58 - Stopping syslogmonitor.exe
+2026-05-02 22:04:58 - ProcessKill 3720
+2026-05-02 22:04:58 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-05 15:08:40 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-05 15:08:40 - Started 4116
+2026-05-05 17:55:40 - Stopping syslogmonitor.exe
+2026-05-05 17:55:40 - ProcessKill 4116
+2026-05-05 17:55:41 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-08 16:40:37 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-08 16:40:39 - Started 2196
+2026-05-08 18:06:49 - Stopping syslogmonitor.exe
+2026-05-08 18:06:49 - ProcessKill 2196
+2026-05-08 18:06:49 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-08 18:09:08 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-08 18:09:08 - Started 3632
+2026-05-08 18:32:02 - Stopping syslogmonitor.exe
+2026-05-08 18:32:02 - ProcessKill 3632
+2026-05-08 18:32:02 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-08 18:32:37 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-08 18:32:37 - Started 3620
+2026-05-08 18:42:18 - Stopping syslogmonitor.exe
+2026-05-08 18:42:18 - ProcessKill 3620
+2026-05-08 18:42:18 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-08 19:02:48 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-08 19:02:49 - Started 3624
+2026-05-08 19:21:20 - Stopping syslogmonitor.exe
+2026-05-08 19:21:20 - ProcessKill 3624
+2026-05-08 19:21:20 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-09 15:37:30 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 15:37:32 - Started 3508
+2026-05-09 15:52:59 - Stopping syslogmonitor.exe
+2026-05-09 15:52:59 - ProcessKill 3508
+2026-05-09 15:52:59 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-09 15:53:33 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 15:53:33 - Started 3620
+2026-05-09 15:56:49 - Stopping syslogmonitor.exe
+2026-05-09 15:56:49 - ProcessKill 3620
+2026-05-09 15:56:49 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-09 15:57:23 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 15:57:23 - Started 3556
+2026-05-09 16:03:18 - Stopping syslogmonitor.exe
+2026-05-09 16:03:18 - ProcessKill 3556
+2026-05-09 16:03:18 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-09 16:03:52 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 16:03:52 - Started 3480
+2026-05-09 16:08:04 - Stopping syslogmonitor.exe
+2026-05-09 16:08:04 - ProcessKill 3480
+2026-05-09 16:08:04 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-09 16:08:38 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 16:08:38 - Started 3384
+2026-05-09 16:26:53 - Stopping syslogmonitor.exe
+2026-05-09 16:26:53 - ProcessKill 3384
+2026-05-09 16:26:53 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-09 16:27:27 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 16:27:27 - Started 3604
+2026-05-09 18:10:40 - Stopping syslogmonitor.exe
+2026-05-09 18:10:40 - ProcessKill 3604
+2026-05-09 18:10:40 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-09 18:11:16 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 18:11:16 - Started 3452
+2026-05-09 18:27:46 - Stopping syslogmonitor.exe
+2026-05-09 18:27:46 - ProcessKill 3452
+2026-05-09 18:27:46 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-15 14:49:07 - Starting C:\Program Files\nodejs\node.exe  C:\IIS\node_modules\node-windows\lib\wrapper.js --file C:\IIS\server.js --scriptoptions= --log "SysLog Monitor wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-15 14:49:08 - Started 3852
