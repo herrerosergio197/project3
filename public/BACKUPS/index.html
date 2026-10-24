@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog — Articles + Embedded Login</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .members-welcome {
+        background: linear-gradient(135deg, rgba(124,92,255,.18), rgba(51,214,255,.08));
+        border-color: rgba(124,92,255,.35);
+        margin-bottom: 12px;
+      }
+      .welcome-badge {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: var(--accent2);
+        border: 1px solid rgba(51,214,255,.3);
+        background: rgba(51,214,255,.08);
+        border-radius: 999px;
+        padding: 4px 10px;
+        margin-bottom: 10px;
+      }
+      .welcome-title {
+        margin: 0 0 8px;
+        font-size: 20px;
+        letter-spacing: -.02em;
+      }
+      .welcome-body {
+        margin: 0;
+        line-height: 1.65;
+      }
+      .members-tip {
+        margin-bottom: 12px;
+        border-style: dashed;
+      }
+      .tip-label {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+  <!-- I cannot remember the password, but I can say it was a number and a word when I was logged in, maybe inside the article? -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">B</div>
+          <div>
+            <div class="brand-title">My Blog</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#articulos">Articles</a>
+          <a href="#miembros">Members</a>
+          <a href="/about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container layout">
+      <section class="content">
+        <div class="hero">
+          <h1>A simple, usable, good-looking blog.</h1>
+          <p>
+            Articles are visible without signing in. If you authenticate, members-only content is unlocked without
+            taking the login out of the blog context.
+          </p>
+        </div>
+
+        <section id="articulos" class="section">
+          <div class="section-title">
+            <h2>Articles</h2>
+            <div class="section-actions">
+              <input id="search" class="input" type="search" placeholder="Search articles..." />
+            </div>
+          </div>
+
+          <div id="articles" class="grid"></div>
+        </section>
+
+        <section id="miembros" class="section hidden">
+          <div class="section-title">
+            <h2>Members only</h2>
+          </div>
+
+          <div id="membersLocked" class="card callout">
+            <div class="callout-title">Locked</div>
+            <p class="muted">Sign in using the panel on the right to see internal articles.</p>
+          </div>
+
+          <div id="membersWelcome" class="hidden">
+            <div class="card members-welcome">
+              <div class="welcome-badge">✦ Member</div>
+              <h3 id="welcomeTitle" class="welcome-title"></h3>
+              <p id="welcomeText" class="muted welcome-body"></p>
+            </div>
+
+            <div class="card members-tip">
+              <div class="tip-label">Did you know?</div>
+              <p id="randomTip" class="muted" style="margin:0;line-height:1.6"></p>
+            </div>
+          </div>
+
+          <div id="membersArea" class="grid hidden"></div>
+        </section>
+
+      </section>
+
+      <aside class="sidebar">
+        <div class="card login-card">
+          <div class="login-header">
+            <h3>Access</h3>
+            <span id="badge" class="badge">Not signed in</span>
+          </div>
+
+          <form id="loginForm" class="form">
+            <label class="label">
+              Username
+              <input id="username" class="input" autocomplete="username" placeholder="Username" />
+            </label>
+            <label class="label">
+              Password
+              <input
+                id="password"
+                class="input"
+                type="password"
+                autocomplete="current-password"
+                placeholder="Password"
+              />
+            </label>
+
+            <button id="loginBtn" class="button primary" type="submit">Sign in</button>
+            <button id="logoutBtn" class="button hidden" type="button">Sign out</button>
+
+            <p id="loginError" class="error hidden"></p>
+          </form>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span class="muted">© 2026 My Blog</span>
+      </div>
+    </footer>
+
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Article">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-card">
+        <div class="modal-top">
+          <div>
+            <div id="modalTitle" class="modal-title">—</div>
+            <div id="modalMeta" class="modal-meta muted">—</div>
+          </div>
+          <button class="icon-btn" data-close="true" aria-label="Close">✕</button>
+        </div>
+        <div id="modalBody" class="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
