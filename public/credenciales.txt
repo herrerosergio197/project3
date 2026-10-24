@@ -1,2 +1,0 @@
-demo/demo1234
-editor/editor1234
